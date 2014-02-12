@@ -6,10 +6,9 @@ require 'celluloid/stomp/version'
 Gem::Specification.new do |spec|
   spec.name          = "celluloid-stomp"
   spec.version       = Celluloid::Stomp::VERSION
-  spec.authors       = ["Jonas Nicklas and Kim Burgestrand"]
-  spec.email         = ["dev+jnicklas+burgestrand@elabs.se"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.authors       = ["Jonas Nicklas", "Kim Burgestrand"]
+  spec.email         = ["jonas.nicklas@gmail.com", "kim@burgestrand.se"]
+  spec.summary       = %q{Evented Celluloid STOMP reactor}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +19,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
